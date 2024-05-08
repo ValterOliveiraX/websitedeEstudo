@@ -12,9 +12,13 @@
     <div class="container-xl p-5 mb-3 bg-white ">
         <header class="row clearfix">
             <h1>
-                <img src="bootstrap/img/logo.jpg" width="128x128">
+                <img src="bootstrap/img/logo.jpg" width="400x400">
             </h1>
         </header>
+        <!------------------------------------ meu perfil -->
+        <nav class="d-flex justify-content-end">
+                <a href="perfil.html">Meu perfil</a>
+        </nav>
         <nav class="row clearfix">
             <ul>
                 <li>
@@ -30,17 +34,22 @@
         </nav>
 <!-- Começo da página -->
         <div class="row clearfix">
+            <hr>
+            <h2>
+                Meu perfil
+            </h2>
+            <!-- Foto de perfil -->
+            <hr>
             <section class="col-md-6">
-                <!-- Foto de perfil -->
-                regiao de foto do perfil
                 <h4>Dados de perfil</h4>
+                <img src="bootstrap/img/perfil/fotoperfil.png" alt="" width="400x400">
                 <p>Nome: Usuário</p>
                 <p>Email: Usuário@gmail.com</p>
                 <p><a href="#"Meu link></a></p>
-
+                <h4>Perfil</h4>
             </section>
+               <!-- regiao de dados cadastrais e inclusao e exclusao da lista -->
             <section class="col-md-6">
-                <!-- regiao de dados cadastrais e inclusao e exclusao da lista -->
                 <h3>Itens da minha lista</h3>
                 <table>
                     <thead>
@@ -63,9 +72,10 @@
                 </table>
             </section>
         </div>
+        <!-- regiao de produtos da lista MYLIST -->
         <div class="row clearfix">
             <section class="col-md-6">
-                <!-- regiao de produtos da lista MYLIST -->
+                
                 <h3>Minha Lista</h3>
                 <p>Nome: Lista de aniversário</p>
                 <form method:="post">
@@ -73,8 +83,9 @@
                     <button name="criarLista" type="submit">Criar Llista</button>
                 </form>
             </section>
+             <!-- lista de indicacoes pra amigos -->
             <section class="col-md-6">
-                <!-- lista de indicacoes pra amigos -->
+               
                 lista de indicacoes pra amigos
                 <h3>indicar para um amigo</h3>
                 <form method="post">
