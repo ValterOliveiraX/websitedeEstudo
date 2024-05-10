@@ -15,10 +15,11 @@
                 <img src="bootstrap/img/logo.jpg" width="400x400">
             </h1>
         </header>
-        <!------------------------------------ meu perfil -->
+                <!--- meu perfil  -------------------------------------------------------->
         <nav class="d-flex justify-content-end">
                 <a href="perfil.html">Meu perfil</a>
         </nav>
+                <!--  MENU --------------------------------------------------------------->
         <nav class="row clearfix">
             <ul>
                 <li>
@@ -32,23 +33,22 @@
                 </li>
             </ul>
         </nav>
-<!-- Começo da página -->
+              <!-- Começo da página --------------------------------------------------- -->
         <div class="row clearfix">
             <hr>
             <h2>
                 Meu perfil
             </h2>
-            <!-- Foto de perfil -->
+              <!-- Foto de perfil ------------------------------------------------------->
             <hr>
             <section class="col-md-6">
                 <h4>Dados de perfil</h4>
-                <img src="bootstrap/img/perfil/fotoperfil.png" alt="" width="400x400">
+                <img src="bootstrap/img/perfil/fotoperfil.png" alt="" width="300x300">
                 <p>Nome: Usuário</p>
                 <p>Email: Usuário@gmail.com</p>
                 <p><a href="#"Meu link></a></p>
-                <h4>Perfil</h4>
             </section>
-               <!-- regiao de dados cadastrais e inclusao e exclusao da lista -->
+              <!-- regiao de dados cadastrais e inclusao e exclusao da lista ---------->
             <section class="col-md-6">
                 <h3>Itens da minha lista</h3>
                 <table>
@@ -72,24 +72,23 @@
                 </table>
             </section>
         </div>
-        <!-- regiao de produtos da lista MYLIST -->
+            <!-- regiao de produtos da lista MYLIST -------------------------------------->
         <div class="row clearfix">
+            <hr>
             <section class="col-md-6">
-                
                 <h3>Minha Lista</h3>
                 <p>Nome: Lista de aniversário</p>
                 <form method:="post">
-                    <input type="text" name="descrição" placeholder="coloque aqui o nome da sua lista" required />
+                    <input type="text" name="descrição" placeholder="Escreva o nome da sua lista" required />
                     <button name="criarLista" type="submit">Criar Llista</button>
                 </form>
             </section>
-             <!-- lista de indicacoes pra amigos -->
+            <!-- lista de indicacoes pra amigos ----------------------------------------->
             <section class="col-md-6">
-               
                 lista de indicacoes pra amigos
                 <h3>indicar para um amigo</h3>
                 <form method="post">
-                    <input type="hidden" name="nome" value=""/>
+                    <p><input type="nome" name="nome" placeholder="nome" required /></p>
                     <p><input type="email" name="email" placeholder="Email" required></p>
                     <p><button type="submit">Indicar</button></p>
                 </form>
