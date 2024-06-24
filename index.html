@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt">
+<!------------------------------------------------------------------------------------------------------------inicio-->
 
 <head>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/estilo.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VENDAS</title>
-</head >
+    <title>HOME</title>
+</head>
+<!-----------------------------------------------------------------------------------------------------imagem de fundo-->
 
-<body background="bootstrap/img/fundo/fundo.jpg">  
-    <!------------------------------------------------------------------------------------------------imagem de fundo-->
+<body background="bootstrap/img/fundo/fundo.jpg">
     <div class="container-xl p-5 mb-3 bg-white ">
         <header class="row clearfix">
             <h1>
                 <img src="bootstrap/img/logo.jpg" width="400x400">
             </h1>
         </header>
+
         <!------------------------------------------------------------------------------------------------ meu perfil -->
         <nav class="d-flex justify-content-end menu-estilo">
 
             <a href="perfil.html">Meu perfil</a>
-        </nav> 
-            <!------------------------------------------------------------------------------------- menu de navegacao -->
+        </nav>
+        <!------------------------------------------------------------------------------------------ menu de navegacao -->
         <nav nav class="row clearfix caixa">
-   
+
             <ul class="nav nav-pills menu-estilo">
                 <li>
                     <a href="index.html"> inicio </a>
@@ -37,20 +39,21 @@
                 </li>
             </ul>
         </nav>
-        <!------------------------------------------------------------------------------------janela de login e cadastro-->
+        <!-----------------------------------------------------------------------------------janela de login e cadastro-->
         <hr>
         <div class="row clearfix">
             <section class="col-md-6">
-                <!-------------------------------------------------------------------------------- esquerda (entrar) -->
+                <!----------------------------------------------------------------------------------- esquerda (entrar) -->
                 <form method="post" class="form-estilo">
-                    
+
                     <h2 class="titulo">
                         <strong>login</strong>
                         </strong>
                     </h2>
                     <p><input type="email" class="form-control" name="email" placeholder="Digite o seu email" required>
                     </p>
-                    <p><input type="password" name="senha" class="form-control" placeholder="Digite sua senha" required> </p>
+                    <p><input type="password" name="senha" class="form-control" placeholder="Digite sua senha" required>
+                    </p>
                     <p><button name="login" type="submit" class="btn btn-lg btn-info btn-block">Login</button></p>
                 </form>
             </section>
@@ -61,17 +64,18 @@
                         <strong>Cadastre-se agora</strong>
                     </h2>
                     <p><input type="nome" class="form-control" name="nome" placeholder="Escreva seu nome" required>
-                    <p><input type="email" class="form-control" name="email" placeholder="Insira o seu email" required> 
-                    <small id="emailHelp" class="form-text text-muted">Não esqueca seu email.</small>
+                    <p><input type="email" class="form-control" name="email" placeholder="Insira o seu email" required>
+                        <small id="emailHelp" class="form-text text-muted">Não esqueca seu email.</small>
                     </p>
                     <p> </p>
-                    <p><button name="Cadastrar" type="submit" class="btn btn-lg btn-info btn-block">Cadastrar</button></p>
+                    <p><button name="Cadastrar" type="submit" class="btn btn-lg btn-info btn-block">Cadastrar</button>
+                    </p>
                 </form>
             </section>
         </div>
         <h2>
-        <hr>
-        <!-----------------------------------------------------------------------------------------------------AJUDA? --->
+            <hr>
+            <!--------------------------------------------------------------------------------------------------AJUDA? --->
             <strong><br></hr>PRECISA DE AJUDA?</hr></br></strong>
         </h2>
         <div class="row clearfix">
@@ -82,7 +86,7 @@
                 <P>
                     <strong>
                         <br>
-                            <h1>Instruções</h1>
+                        <h1>Instruções</h1>
                         <br>
                     </strong>
                 </P>
@@ -101,4 +105,5 @@
         </div>
     </div>
 </body>
+
 </html>

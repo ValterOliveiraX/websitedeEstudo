@@ -1,26 +1,27 @@
-.caixa{
+.caixa {
     background: rgb(207, 159, 54);
     margin-bottom: 10px;
     margin-top: 10 px;
     padding: 30px 15px;
+    border-radius: 3px;
 }
 
-.menu-estilo{
+.menu-estilo {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0 auto;
     display: table;
-    font-size: 1.00em;
+    font-size: 1.25em;
 }
 
-.form-estilo{
+.form-estilo {
     max-width: 330px;
     padding: 15px;
     margin: auto;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
